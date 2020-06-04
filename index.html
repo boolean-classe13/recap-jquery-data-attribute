@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>jQuery - data attribute</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="wrapper">
+            <section class="section">
+                <h1>jQuery - data attribute</h1>
+                <p>Utilizzare il data attribute con jQuery</p>
+                <div class="content">
+                    <div class="button-container">
+                        <a href="#" class="button btnBox red" data-id="divRed">Evidenzia div rosso</a>
+                        <a href="#" class="button btnBox green" data-id="divGreen">Evidenzia div verde</a>
+                        <a href="#" class="button btnBox blue" data-id="divBlue">Evidenzia div blu</a>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="container flex">
+                    <div class="quadrato red" id="divRed">
+                    </div>
+                    <div class="quadrato green" id="divGreen">
+                    </div>
+                    <div class="quadrato blue" id="divBlue">
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <h1>jQuery - data attribute</h1>
+                <p>Utilizzare il data attribute con jQuery - Esempio realistico</p>
+                <div class="content">
+                    <div class="button-container">
+                        <a href="#" class="button btnRistorante red" data-tipo="pizza">Pizzeria</a>
+                        <a href="#" class="button btnRistorante green" data-tipo="vegano">Vegano</a>
+                        <a href="#" class="button btnRistorante blue" data-tipo="glutenFree">Gluten free</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section">
+                <div class="container">
+                    <ul id="lista-ristoranti">
+                        <li class="green" data-tipo="vegano">Vegan Paradise</li>
+                        <li class="red" data-tipo="pizza">Da Mario</li>
+                        <li class="blue" data-tipo="glutenFree">Chez Luis</li>
+                        <li class="green" data-tipo="vegano">Dirt Candy</li>
+                        <li class="blue" data-tipo="glutenFree">La Grenouille</li>
+                        <li class="red" data-tipo="pizza">Pizza Hut</li>
+                        <li class="green" data-tipo="vegano">Angelica Kitchen</li>
+                        <li class="red" data-tipo="pizza">Pizzeria all'angolo</li>
+                        <li class="blue" data-tipo="glutenFree">Balthazar</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section">
+                <h1>jQuery - data attribute</h1>
+                <p>Utilizzare il data attribute con jQuery - data e attr <br>
+                    Vedere la console
+                </p>
+                <div class="content">
+                    <div class="button-container">
+                        <a href="#" class="button btnDiff red" data-tipo="test">TEST</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
